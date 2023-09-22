@@ -1,0 +1,75 @@
+*** 1. Program pertama Anda di Kotlin ***
+
+fun main() {
+    /* menampilkan tulisan pada program error dikarenkan petikan pada println tidak sama yang harusnya menggunakan ("...") */
+    println("Hallo Yusseno')
+}
+
+solusi = 
+fun main() {
+    /* menampilkan tulisan pada program error dikarenkan petikan pada println tidak sama yang harusnya menggunakan ("...") */
+    println("Hallo Yusseno")
+}
+
+output = 
+Hallo Yusseno
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+*** 2. Membuat dan menggunakan variabel di Kotlin ***
+
+fun main() {
+    val count: Int = 2
+    println(count)
+}
+
+output = 
+2
+
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+
+*** 3. PMembuat dan menggunakan fungsi di Kotlin***
+
+/* membuat fungsi identitas */
+
+fun indentitas(nama: String, kelas: String): String {
+    /* membuat valriabel */
+    val nameGreeting = "Nama: $nama"
+    val kelasGreeting = "Kelas: $kelas"
+    return "$nameGreeting\n$kelasGreeting"
+}
+
+fun main() {
+    /* panggil fungsi identitas */
+    println(indentitas("yusseno", "if1"))
+    println(indentitas("putri", "if1"))
+}
+
+outputnya = 
+Nama: yusseno
+Kelas: if1
+Nama: putri
+Kelas: if1
+
+    /* jika mengharapkan nilai outputnya 50 maka variabel hrus bertipe integer (tandan "" di hapus) */
+
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+
+*** 4. Soal Latihan:Dasar-Dasar Kotlin ***
+
+fun main() {
+    /* tipe data integer */
+    val baseSalary = 5000
+    val bonusAmount = 1000
+
+    /* jika baseSalary dan bonusAmount di gabungkan dalam bentuk string*/
+    val totalSalary = "$baseSalary + $bonusAmount"
+    println("Congratulations for your bonus! You will receive a total of $totalSalary (additional bonus).")
+}
+
+output = 
+Congratulations for your bonus! You will receive a total of 5000 + 1000 (additional bonus).
